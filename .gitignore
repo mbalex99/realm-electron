@@ -1,0 +1,5 @@
+node_modules
+default.realm.management
+default.realm
+default.realm.*
+realm-object-server

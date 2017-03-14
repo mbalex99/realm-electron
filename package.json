@@ -1,0 +1,23 @@
+{
+  "name": "typescript-realm-electron",
+  "version": "1.0.0",
+  "description": "A boilerplate for typescript, electron and realm. Using electron-compile",
+  "main": "src/main.ts",
+  "scripts": {
+    "postinstall": "npm run rebuild-realm",
+    "start": "electron .",
+    "rebuild-realm": "$(npm bin)/electron-rebuild -f -w realm"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^7.0.8",
+    "@types/realm": "^1.0.0",
+    "electron-compile": "^6.1.3",
+    "electron-prebuilt-compile": "^1.6.2",
+    "electron-rebuild": "^1.5.7"
+  },
+  "dependencies": {
+    "realm": "^1.1.1"
+  }
+}
